@@ -10,7 +10,7 @@ function clearPopups() {
 }
 
 $(document).ready(function() {
-	var path = "../images/";
+	var path = "https://xiangjun-chen.github.io/smart-factory/images/";
 	
 	/**
      * 创建场景对象

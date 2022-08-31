@@ -1,4 +1,4 @@
-var path = "../images/";
+var path = "https://xiangjun-chen.github.io/smart-factory/images/";
 
 var model = {
 	//鼠标拾取三维坐标
