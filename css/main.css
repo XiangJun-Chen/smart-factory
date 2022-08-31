@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+}
+#filter {
+	position: fixed;
+	top: 0;left: 0;
+	z-index: -1;
+	width: 100vw;height: 100vh;
+	background: rgba(33,33,33,0.5);
+}
+#filter.active {
+	z-index: 2;
+}
+.videoBoard, .dataBoard {
+	position: fixed;
+	top: 20vh;left: 0;right: 0;
+	z-index: -1;
+	width: 50vw;
+	margin: 0 auto;
+}
+.videoBoard.active, .dataBoard.active {
+	z-index: 3;
+}
